@@ -1,0 +1,15 @@
+Display 1:
+
+ fixation 1|(558, 378)|RT:-1240.0|['CENTER', 'TARGET']
+
+    saccade F1 --> F2|length:2.63deg|angle:183deg|RT:-934.0 ms|towards:['CENTER']
+
+ fixation 2|(523, 397)|RT:-914.0|['CENTER']
+
+    saccade F2 --> F3|length:6.86deg|angle:0deg|RT:182.0 ms|towards:['TARGET']
+
+ fixation 3|(630, 399)|RT:216.0|['TARGET']
+
+    saccade F3 --> F4|length:8.21deg|angle:179deg|RT:630.0 ms|towards:['CENTER']
+
+ fixation 4|(484, 387)|RT:684.0|['CENTER']
