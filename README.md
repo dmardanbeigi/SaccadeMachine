@@ -1,5 +1,6 @@
 # SaccadeMachine
 SaccadeMachine is an open source software for analyzing Pro-Saccade and Anti-Saccade tasks. The software is written in Python with a simple and user friendly user interface that can be run as a notebook in Jupyter. No programming knowledge is required for using the software!
+
 See the paper for more information about the software:
 <LINK>
 
