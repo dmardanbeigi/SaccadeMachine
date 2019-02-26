@@ -2,7 +2,8 @@
 SaccadeMachine is an open source software for analyzing Pro-Saccade and Anti-Saccade tasks. The software is written in Python with a simple and user friendly user interface that can be run as a notebook in Jupyter. No programming knowledge is required for using the software!
 
 See the paper for more information about the software:
-<LINK>
+
+LINK
 
 # Assumptions
 --  All the eye tracking data for the experiment should be inside a subfoler (with any arbitrary name) in the "dataset" folder.
@@ -22,26 +23,39 @@ See the paper for more information about the software:
 * **'IN_BLINK'** column is optional.
 
 -- If the participants are divided into groups, provide an extra column (named as **'SUBJECT_GROUP'**) indicating group index.
+
 -- File name should match the subject name and has to be capital. Name column in the recording is optional but if it exists it has to match the file name. All the names will be converted to capital letters in the result files. 
+
 -- The center fixation target is assumed to be located at the center of the screen. 
+
 -- The recording could consist of multiple blocks (e.g., a few pilot trials at the beginning). The **'BLOCK'** columns should be provided in the recording indicating the block index. It does not matter if the trial indices are reset to 1 in each block. 
+
 -- The recording could also have multiple conditions. Provide an extra column **'CONDITION'** in the recording to show the condition label (string or integer) of each trial.  
 
 
 # Installation
+
 **1**- Download and install python 3.6.x from https://www.python.org/downloads/
+
 -- **Mac**:
+
 **2**- Open the terminal (find the Terminla in \Applications\Utilities\terminal)
+
 **3**- Go to the installation folder from your terminal (you can just write cd, press spacebar once and drag the installation folder into the terminal): 
 ```cd <path to your installation folder>```
+
 **4**- run the following lines:
 ```pip3 install -r requirements_mac.txt```
 and then 
 ```jupyter contrib nbextension install --user```
+
 -- **Windows**:
+
 **2**- Search for cmd.exe, right click and run that as admin
+
 **3**- From your cmd, go to the installation folder:
 ```cd <path to your installation folder>```
+
 **4**- Run the following lines (you may need to download and install git from https://git-scm.com/downloads
 if you got a git related error after the first line): 
 ```pip3 install -r requirements_win.txt```
@@ -51,22 +65,30 @@ and then
 
 Installation may take a few minutes and it shouldn't return any error. After the installation close the terminal.
  
- # First time running the software
+# First time running the software
+
 **1**- You need to make sure that there is a folder named "dataset" inside your SaccadeMachine folder and it contains the AS, PS and RD datasets
+
 **2**- Go to the SaccadeMachine folder from your terminal (you can just write cd, press spacebar once and drag the SaccadeMachine folder into the terminal):
 ```cd <path to your installation folder>```
+
 **3**- Run the software (jupyter notebook) by running the line below in the terminal:
 ```jupyter notebook --NotebookApp.iopub_data_rate_limit=10000000000``` 
 This opens the jupyter page in your browser.
+
 **4**- In the jupyter page on the top you should be able to see the nbextensions tab. Inside the nbextensions tab **uncheck** the option "disable configuration for nbextensions without..." from the top of the page. Also **check** the following items as well: "Table of Contents" and "CodeFolding"
+
 **5**- Go back to the Files tab and run the SaccadeMachine notebook by clicking on the "SaccadeMachine.ipynb" file in the list and this opens the notebook in a new page.
 
 # Running the software next times
+
 **1**- Go to the SaccadeMachine folder from your terminal (you can just write cd, press spacebar once and drag the SaccadeMachine folder into the terminal):
 ```cd <path to your installation folder>```
+
 **2**- Run the software (jupyter notebook) by running the line below in the terminal:
 ```jupyter notebook --NotebookApp.iopub_data_rate_limit=10000000000```
 This opens the jupyter page in your browser.
+
 **3**- Run the SaccadeMachine notebook by clicking on the "SaccadeMachine.ipynb" file in the list and this opens the notebook in a new page.
 
 # How to close the software when you are done
