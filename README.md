@@ -3,7 +3,7 @@ SaccadeMachine is an open source software for analyzing Pro-Saccade and Anti-Sac
 
 See the paper for more information about the software:
 
-LINK
+Diako Mardanbegi, Thomas Wilcockson, Pete Sawyer, Hans Gellersen, and Trevor Crawford. 2019. SaccadeMachine: software for analyzing saccade tests (anti-saccade and pro-saccade). In Proceedings of the 11th ACM Symposium on Eye Tracking Research & Applications (ETRA '19). ACM, New York, NY, USA, Article 72, 8 pages. DOI: https://doi.org/10.1145/3317956.3318148 
 
 # Assumptions
 --  All the eye tracking data for the experiment should be inside a subfoler (with any arbitrary name) in the "dataset" folder.
