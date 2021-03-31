@@ -1,4 +1,4 @@
-lxml==4.2.4
+lxml==4.6.3
 sklearn==0.0
 numpy==1.14.2
 appnope==0.1.0
