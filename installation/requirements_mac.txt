@@ -1,4 +1,4 @@
-lxml==4.2.4
+lxml==4.9.1
 sklearn==0.0
 appnope==0.1.0
 bleach==2.1.3
