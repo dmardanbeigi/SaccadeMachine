@@ -1,0 +1,11 @@
+ipython==8.4.0
+ipywidgets==7.6.3
+matplotlib==3.5.2
+mpld3==0.5.8
+numpy==1.20.3
+openpyxl==3.0.10
+pandas==1.2.4
+scipy==1.8.0
+seaborn==0.11.1
+statsmodels==0.13.1
+matplotlib==3.4.2

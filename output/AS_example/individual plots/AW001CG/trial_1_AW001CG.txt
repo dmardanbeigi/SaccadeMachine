@@ -1,0 +1,11 @@
+Display 1:
+
+ fixation 1|(744, 324)|RT:-1238.0|[]
+
+    saccade F1 --> F2|length:14.24deg|angle:193deg|RT:-1210.0 ms|towards:['CENTER']
+
+ fixation 2|(507, 383)|RT:-1154.0|['CENTER']
+
+    saccade F2 --> F3|length:16.52deg|angle:182deg|RT:186.0 ms|towards:['OPPOSITE_1']
+
+ fixation 3|(236, 392)|RT:266.0|[]
